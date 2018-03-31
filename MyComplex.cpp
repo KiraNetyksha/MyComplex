@@ -1,10 +1,5 @@
 #include "MyComplex.h"
 
-
-
-
-
-
 MyComplex::MyComplex (double Im, double Re)
 {
 	this->Im = Im;
