@@ -8,7 +8,7 @@ class MyComplex
 private:
 	double Re, Im;
 public:
-	MyComplex (double Im = 0, double Re = 0);
+	MyComplex (double Re = 0, double Im = 0);
 	~MyComplex ();
 	double getIm ();
 	int setIm (double Im);
