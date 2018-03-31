@@ -1,9 +1,9 @@
 #include "MyComplex.h"
 
-MyComplex::MyComplex (double Im, double Re)
+MyComplex::MyComplex (double Re, double Im)
 {
-	this->Im = Im;
 	this->Re = Re;
+	this->Im = Im;
 }
 
 MyComplex::~MyComplex ()
